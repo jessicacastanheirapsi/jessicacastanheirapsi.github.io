@@ -474,7 +474,7 @@
         document.getElementById("g-summary").hidden = false;
       }
       var boas = (d.avaliacoes || []).filter(function(a){ return a.nota >= 4 && a.texto; });
-      if (boas.length >= 3 && !feito) {
+      if (boas.length >= 1 && !feito) {
         var track = document.querySelector("#reviews .track"); track.innerHTML = "";
         boas.forEach(function(a){
           var c = document.createElement("div"); c.className = "quote-card";
