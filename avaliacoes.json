@@ -1,6 +1,21 @@
 {
-  "atualizado": null,
-  "nota": null,
-  "total": null,
-  "avaliacoes": []
+  "atualizado": "2026-11-04T20:46:07.559Z",
+  "nota": 5,
+  "total": 5,
+  "avaliacoes": [
+    {
+      "autor": "Beatriz M.",
+      "foto": "https://lh3.googleusercontent.com/a-/ALV-UjVowTBVzXItUfpjFsS6DMyT1Tg68jVeTVDfG27kLCEVzad5APa4lQ=s64-c-rp-mo-br100",
+      "nota": 5,
+      "texto": "Uma profissional que admiro muito pela competência, dedicação e pelo amor que demonstra pela Psicologia\\. É muito bonito ver alguém que busca fazer a diferença na vida das pessoas por meio da sua profissão\\. Recomendo para quem procura uma psicóloga comprometida, humana e que valoriza o desenvolvimento e o…",
+      "data": "2026-10-23"
+    },
+    {
+      "autor": "Elisangela S.",
+      "foto": "https://lh3.googleusercontent.com/a-/ALV-UjXzBL_99M1L8emmh3U4QzD8pNIJQsbcquCPGM3h4YFcSL3TvBUSuA=s64-c-rp-mo-ba12-br100",
+      "nota": 5,
+      "texto": "Excelente profissional, tem muito a ajudar. Indico. ✨️",
+      "data": "2026-09-29"
+    }
+  ]
 }
