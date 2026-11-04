@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 const KEY = process.env.SERPAPI_KEY;
 const PLACE_ID = process.env.PLACE_ID || "COLE_AQUI_O_PLACE_ID";
 if (!KEY) { console.error("Falta o segredo SERPAPI_KEY."); process.exit(1); }
-if (PLACE_ID.startsWith("COLE_AQUI")) { console.error("Troque COLE_AQUI_O_PLACE_ID pelo Place ID do perfil."); process.exit(1); }
+if (PLACE_ID.startsWith("ChIJlxP0y9o9LG8RZgMgFToCC8c")) { console.error("Troque ChIJlxP0y9o9LG8RZgMgFToCC8c pelo Place ID do perfil."); process.exit(1); }
 
 const url = "https://serpapi.com/search.json?engine=google_maps_reviews&hl=pt-br&sort_by=newestFirst"
   + "&place_id=" + encodeURIComponent(PLACE_ID) + "&api_key=" + encodeURIComponent(KEY);
